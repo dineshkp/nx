@@ -44,6 +44,12 @@
       "version": "13.0.0-beta.1",
       "description": "Remove packages installed by Nx 12's `@nrwl/web:webpack5` generator.",
       "factory": "./src/migrations/update-13-0-0/remove-webpack-5-packages-13-0-0"
+    },
+    "update-babel-preset": {
+      "version": "13.4.0-beta.0",
+      "cli": "nx",
+      "description": "Migrate babel preset from nrwl/web/babel to nrwl/js/babel",
+      "factory": "./src/migrations/update-13-4-0/update-babel-preset"
     }
   },
   "packageJsonUpdates": {}
